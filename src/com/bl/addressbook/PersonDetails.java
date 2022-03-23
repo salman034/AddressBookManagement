@@ -11,7 +11,7 @@ public class PersonDetails {
     private String email;
 
     public PersonDetails(String firstName, String lastName, String address, String city, String state,
-                                           String zipCode, String phoneNumber,  String email) {
+                         String zipCode, String phoneNumber,  String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
