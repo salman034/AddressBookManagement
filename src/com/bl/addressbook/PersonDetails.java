@@ -10,7 +10,7 @@ public class PersonDetails {
     private String phoneNumber;
     private String email;
 
-    public void lastName(String firstName) {
+    public void firstName(String firstName) {
         this.firstName = firstName;
     }
 
