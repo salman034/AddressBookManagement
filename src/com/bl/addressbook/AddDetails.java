@@ -14,7 +14,6 @@ public class AddDetails {
         System.out.println(contactDetails.size());
 
         for (int i = 0; i < contactDetails.size(); i++) {
-
             if(contactDetails.get(i).getFirstName().equals(data)) {
                 System.out.println("1. Enter The update First Name :");
                 System.out.println("2. Enter The update LastName. ");
@@ -82,8 +81,7 @@ public class AddDetails {
         for (int i = 0; i < contatctDetails.size(); i++) {
             if (contatctDetails.get(i).getFirstName().equals(data)) {
                 contatctDetails.remove(i);
-            }
-            else
+            } else
                 System.out.println("not match any details");
         }
     }

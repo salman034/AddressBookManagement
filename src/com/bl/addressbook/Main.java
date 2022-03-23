@@ -31,7 +31,6 @@ public class Main {
             switch (menu) {
                 case 1:
                     while (menu != 2) {
-
                         System.out.println("Enter First Name: ");
                         String firstName = scanner.next();
                         System.out.println("Enter Last Name: ");
@@ -68,7 +67,6 @@ public class Main {
                 default:
                     System.out.println("Please choose a valid contact details");
                     break;
-
             }
             //for loop use to print the data after add aur edit.
             for (int i = 0; i < contact.size(); i++)
